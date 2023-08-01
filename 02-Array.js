@@ -42,7 +42,7 @@ let temp = []
 temp[0] = [72, 32, 45, 56, 85, 98]
 temp[1] = [89, 82, 96, 12, 13, 18]
 /*
-**三维数组
+**多维数组 i 行 j 列 z 深度
 */
 const matrix3x3x3 = [];
 for(let i = 0; i< 3; i++){
@@ -55,4 +55,10 @@ for(let i = 0; i< 3; i++){
     }
 }
 
-console.log(matrix3x3x3)
+for(let i = 0; i< matrix3x3x3.length; i++){
+    for(let j = 0; j< matrix3x3x3[i].length; j++){
+        for(let z = 0; z< matrix3x3x3[i][j].length; z++){
+        console.log(matrix3x3x3[i][j][z])
+        }
+    }
+}
