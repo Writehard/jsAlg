@@ -80,7 +80,7 @@ function multipleOf13(element, index, array) {
 */
 console.log(num1.includes(12));
 /*
-**7-数组输出为字符串
+**7-数组输出为字符串toString
 */
 console.log(num1.toString());
 
